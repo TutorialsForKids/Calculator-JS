@@ -70,7 +70,7 @@ function addToMemory(firstNumber, operation, secondNumber, answer){
 	
 	var memory = firstNumber + " " + operation + " " + secondNumber + " = " + answer + "<br/>";
 
-	document.getElementById('memory').innerHTML =  memory;
+	document.getElementById('memory').innerHTML = document.getElementById('memory').innerHTML + memory;
 
 }
 
